@@ -12,13 +12,13 @@ namespace _20210920
         {
             int b = Convert.ToInt32(Console.ReadLine());
 
-            if (b % 2 == 0)
+            if (b % 2< 0)
             {
-                Console.WriteLine("A szám pozítiv");
+                Console.WriteLine("Kint fagy");
             }
             else
             {
-                Console.WriteLine("A szám negatív");
+                Console.WriteLine("Kint nem fagy");
             }
 
             Console.WriteLine("enter");
