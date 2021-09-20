@@ -10,17 +10,17 @@ namespace _20210920
     {
         static void Main(string[] args)
         {
-            int a = Convert.ToInt32(Console.ReadLine());
-            
-            if (a%2==0)
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            if (b % 2 == 0)
             {
-                Console.WriteLine("A szám páros");
+                Console.WriteLine("A szám pozítiv");
             }
             else
             {
-                Console.WriteLine("A szám páratlan");
+                Console.WriteLine("A szám negatív");
             }
-            
+
             Console.WriteLine("enter");
             Console.ReadLine();
         }
