@@ -10,15 +10,15 @@ namespace _20210920
     {
         static void Main(string[] args)
         {
-            int b = Convert.ToInt32(Console.ReadLine());
+            int c = Convert.ToInt32(Console.ReadLine());
 
-            if (b % 2< 0)
+            if (c <40 && c>-30)
             {
-                Console.WriteLine("Kint fagy");
+                Console.WriteLine("Közte van");
             }
             else
             {
-                Console.WriteLine("Kint nem fagy");
+                Console.WriteLine("Nincs közte");
             }
 
             Console.WriteLine("enter");
