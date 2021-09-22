@@ -46,6 +46,7 @@
             this.btnkor.TabIndex = 0;
             this.btnkor.Text = "Kör";
             this.btnkor.UseVisualStyleBackColor = true;
+            this.btnkor.Click += new System.EventHandler(this.Btnkor_Click);
             // 
             // btngomb
             // 
@@ -55,6 +56,7 @@
             this.btngomb.TabIndex = 1;
             this.btngomb.Text = "Gömb";
             this.btngomb.UseVisualStyleBackColor = true;
+            this.btngomb.Click += new System.EventHandler(this.Btngomb_Click);
             // 
             // lblkerulet
             // 
