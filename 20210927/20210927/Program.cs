@@ -16,43 +16,43 @@ namespace _20210927
             switch (szam)
             {
                 case 1:
-                    Console.WriteLine("január");
+                    Console.WriteLine("tél");
                     break;
                 case 2:
-                    Console.WriteLine("február");
+                    Console.WriteLine("tél");
                     break;
                 case 3:
-                    Console.WriteLine("március");
+                    Console.WriteLine("tavasz");
                     break;
                 case 4:
-                    Console.WriteLine("április");
+                    Console.WriteLine("tavasz");
                     break;
                 case 5:
-                    Console.WriteLine("május");
+                    Console.WriteLine("tavasz");
                     break;
                 case 6:
-                    Console.WriteLine("június");
+                    Console.WriteLine("nyár");
                     break;
                 case 7:
-                    Console.WriteLine("július");
+                    Console.WriteLine("nyár");
                     break;
                 case 8:
-                    Console.WriteLine("augusztus");
+                    Console.WriteLine("nyár");
                     break;
                 case 9:
-                    Console.WriteLine("szeptember");
+                    Console.WriteLine("ősz");
                     break;
                 case 10:
-                    Console.WriteLine("október");
+                    Console.WriteLine("ősz");
                     break;
                 case 11:
-                    Console.WriteLine("november");
+                    Console.WriteLine("ősz");
                     break;
                 case 12:
-                    Console.WriteLine("december");
+                    Console.WriteLine("tél");
                     break;
                 default:
-                    Console.WriteLine("Nem hónap");
+                    Console.WriteLine("Nincs ilyen hónap");
                     break;
             }
 
