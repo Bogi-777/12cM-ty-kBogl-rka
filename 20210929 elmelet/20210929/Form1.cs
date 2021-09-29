@@ -17,24 +17,13 @@ namespace _20210929
             InitializeComponent();
         }
 
-        private void Label1_Click(object sender, EventArgs e)
+        private void Btnevszak_Click(object sender, EventArgs e)
         {
+            int a = Convert.ToInt32(Console.ReadLine());
+            if (a)
+            {
 
-        }
-
-        private void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Btnkilepes_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        private void Btnszamitas_Click(object sender, EventArgs e)
-        {
-            
+            }
         }
     }
 }
